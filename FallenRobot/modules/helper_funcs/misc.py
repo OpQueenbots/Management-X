@@ -81,7 +81,7 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
                 EqInlineKeyboardButton(
                     "☜", callback_data="{}_prev({})".format(prefix, modulo_page)
                 ),
-                EqInlineKeyboardButton("ʜᴏᴍᴇ", callback_data="FallenRobot_back"),
+                EqInlineKeyboardButton("𝗖𝗵𝗮𝘁", url=f"https://t.me/WorldChattingFriendsWCF"),
                 EqInlineKeyboardButton(
                     "☞", callback_data="{}_next({})".format(prefix, modulo_page)
                 ),
